@@ -83,8 +83,8 @@ BuildLibrary()
                     export HOMEBREW_NO_INSTALL_UPGRADE=true
                     export HOMEBREW_NO_INSTALL_CLEANUP=true
                     export HOMEBREW_NO_AUTO_UPDATE=1
-                    brew install openssl@1.1 lz4 zstd curl
-                    OPENSSL_ROOT_DIR=$(brew --prefix openssl@1.1)
+                    brew install openssl@3 lz4 zstd curl
+                    OPENSSL_ROOT_DIR=$(brew --prefix openssl@3)
                     export CPPFLAGS=-I$OPENSSL_ROOT_DIR/include/
                     export LDFLAGS=-L$OPENSSL_ROOT_DIR/lib
                     ;;
