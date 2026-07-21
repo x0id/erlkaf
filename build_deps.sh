@@ -24,9 +24,9 @@ fi
 # https://github.com/confluentinc/librdkafka.git
 
 LIBRDKAFKA_DESTINATION=librdkafka
-LIBRDKAFKA_REPO=https://github.com/confluentinc/librdkafka.git
-LIBRDKAFKA_BRANCH=master
-LIBRDKAFKA_REV=2af6749287b3695edf2421631ebf08d6bcb176e3
+LIBRDKAFKA_REPO=https://github.com/x0id/librdkafka.git
+LIBRDKAFKA_BRANCH=v2.13.0-fix-int-latency-calc
+LIBRDKAFKA_REV=7aca8352e6dd0aa36c6ff6301eba6b4597537c2e
 LIBRDKAFKA_SUCCESS=src/librdkafka.a
 
 # https://github.com/cameron314/concurrentqueue.git
